@@ -1,25 +1,48 @@
-#contenedor{
-  position:relative;
-  width:360px;
-  height:640px;
-  border:2px solid black;
-  border-radius: 21px;
-  margin:50px auto;
-  display: flex;
-  flex-direction: column;
-  
+a{
+    color:white;
 }
-#main{
-  position:relative;
-  width:360px;
-  height:640px;
-  border:2px solid black;
-  border-radius: 21px;
-  margin:50px auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content:center;
+#contenedor {
+    position: relative;
+    width: 40%;
+    height: 90%;
+    border: 2px solid black;
+    border-radius: 21px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1e2d4a ;
+}
+.continuebutton {
+    position: absolute;
+    bottom: 50px;
+    background-color: #ac195d;
+    color: black;
+    padding: 12px 14px;
+    margin: 8px auto;
+    border: none;
+    border-radius: 21px;
+    cursor: pointer;
+    width: 40%;
+}
+
+continuebutton:hover {
+    opacity: 0.5;
+}
+
+.posicionlogin {
+    position: absolute;
+    top: 40%;
+    background-color: #0d4070;
+    width: 65%;
+    color: #000;
+    border-radius: 21px;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .promociones {
     position: relative;
@@ -41,8 +64,8 @@
 .mensajes {
     position: relative;
     height: 50px;
-    width: 240px;
-    background-color: #C4C4C4;
+    width: 200px;
+    background-color: #ac195d;
     border-radius: 21px;
     margin-left: auto;
     margin-right: auto;
@@ -52,20 +75,32 @@
     justify-content: center;
 }
 
-#logoPequeño {
-    height: 50px;
-    width: 50px;
+#logoPequeno {
+    height: 100px;
+    width: 100px;
+    top:50px;
     background-image: url();
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #bbb;
+    background-color: #51b5e2;
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
+    position:absolute;
     transform: translate(0%, 60%)
 }
 
-
+.titulo{
+    position: relative;
+    width: 70px;
+    height: 60px;
+  
+    margin: 30px 300px;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .circulo{
   height: 50px;
@@ -89,29 +124,30 @@ input[type=text], input[type=password] {
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
-  border: 10px solid #C4C4C4;
+  border: 10px solid #0d4070;
   border-radius: 21px;
   box-sizing: border-box;
 }
 
 button {
-  background-color: #FCFCFC;
-  color: black;
+  background-color: #ac195d;
+  color: white;
   padding: 12px 14px;
   margin: 8px auto;
   border: none;
   border-radius: 21px;
   cursor: pointer;
   width: 40%;
+  
 }
 
 button:hover {
   opacity: 0.5;
 }
 .main {
-  width: 80%;
+  width: 60%;
   height: 40%;
-  background-color: #C4C4C4;
+  background-color: #0d4070;
   border-radius: 21px;
   margin-left: auto;
   margin-right: auto;
@@ -120,16 +156,17 @@ button:hover {
   flex-direction: column;
   justify-content:center;
 }
-.container {
- 
-  background-color: #C4C4C4;
-  border-radius: 21px;
-  margin-left: auto;
-  margin-right: auto;
-  transform: translate(0%, 40%);
-  display: flex;
-  flex-direction: column;
-  justify-content:center;
+.grid {
+    position:relative;
+    top: 10%;
+    display: grid;
+    width: 80%;
+    height: 30%;
+    
+    grid-template-columns: auto auto auto auto;
+    margin: 4px;
+  
+    justify-content:space-around;
 }
 
 input[type=checkbox] {
@@ -141,7 +178,7 @@ input[type=checkbox] {
 }
 
 .textBox{
-  background-color: #c4c4c4;
+  background-color: #0d4070;
   width: 80%;
   color: #000;
   border-radius: 21px;
@@ -183,7 +220,7 @@ input[type=checkbox] {
 }
 #bottommenu {
     position: absolute;
-    background: #C4C4C4;
+    background: #ac195d;
     bottom: 0px;
     height: 60px;
     width: 100%;
@@ -208,7 +245,7 @@ input[type=checkbox] {
 .square{
   height: 140px;
   width: 140px;
-  background-color: #E4E4E4;
+  background-color: #dadada;
   border-radius: 21px;
   display: inline-block;
   margin-top: 4%;
@@ -217,8 +254,18 @@ input[type=checkbox] {
 .smallSquare{
   height: 50px;
   width: 50px;
-  background-color: #E4E4E4;
+  background-color: #dadada;
   border-radius: 21px;
   display: inline-block;
   margin: 1%;
+}
+.backbutton {
+    position:absolute;
+    top: 10px;
+    left:30px;
+    height: 50px;
+    width: 50px;
+    background-color: #51b5e2;
+    border-radius: 50%;
+    display: inline-block;
 }

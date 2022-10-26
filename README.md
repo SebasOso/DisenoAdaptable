@@ -3,8 +3,7 @@
 
 Integrantes
 
-Juan David Góngora 
-Sebastián Osorio
-Pablo Zulaica
-Wireframe Desktop
+- Juan David Góngora 
+-Sebastián Osorio
+-Pablo Zulaica
 

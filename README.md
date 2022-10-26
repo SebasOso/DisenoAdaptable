@@ -4,6 +4,6 @@
 Integrantes
 
 - Juan David Góngora 
--Sebastián Osorio
--Pablo Zulaica
+- Sebastián Osorio
+- Pablo Zulaica
 

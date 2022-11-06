@@ -88,6 +88,7 @@ continuebutton:hover {
     bottom:10%;
     background-color: #0d4070;
     width: 65%;
+    max-width:500px;
     transform:translate(0%,80%);
     color: #000;
     border-radius: 21px;
